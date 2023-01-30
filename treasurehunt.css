@@ -1,0 +1,49 @@
+h1{
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+h2{
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.game-image {
+    display:flex;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Lora', serif;
+    color:blue;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+button:hover {
+    color: purple;
+    text-align: center;
+}
+
+.rules-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.game-rules {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: "🎵";
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

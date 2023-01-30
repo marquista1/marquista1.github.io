@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="icon" 
+    type="image/x-icon" 
+    href="https://cdn.shopify.com/s/files/1/2384/2133/products/lg_52178_2000x.jpg?v=1612888878" />
+    <link rel= "stylesheet" href = "treasurehunt.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>All That Jazz Game!</title>
+  </head>
+  <body>
+    <h1>DANCING JAZZ SQUARES</h1>
+    <h2>Find the Artist</h2>
+    <div class="game-image">
+      <img
+        src="https://i.etsystatic.com/11187787/r/il/6dfb1b/1233758705/il_1588xN.1233758705_lqnk.jpg"
+        height="300px"/>
+    </div>
+    <p>
+      The jazz square is a dance move with four steps. Those steps form a…you guessed it: SQUARE! Think stepping cross, back, side, front with your feet one at a time. With that in mind, you’ll have 4 tries (*cough, cough* steps) to win the game and find the artist, Bruno. Let’s dance!
+    </p>
+    <div class="rules-header">
+      <h4>Game Rules</h4>
+    </div>
+      <div class="game-rules">
+        <ul>
+          <li>Click the boxes to find Bruno</li>
+          <li>If you click on the saxophone, you will lose</li>
+          <li>If you click on the painting, you will be a step closer</li>
+          <li>If you click on Bruno, you win </li>
+        </ul>
+      </div>
+    <div class = "button">
+      <button type="button" onclick="location.reload()">RESTART Game</button>
+    </div>
+    <br/>
+    <table border="1" id="9">
+      <tr>
+        <td id="0" onclick="picasso(0)">X</td>
+        <td id="1" onclick="picasso(1)">X</td>
+        <td id="2" onclick="picasso(2)">X</td>
+      </tr>
+      <tr>
+        <td id="3" onclick="picasso(3)">X</td>
+        <td id="4" onclick="picasso(4)">X</td>
+        <td id="5" onclick="picasso(5)">X</td>
+      </tr>
+      <tr>
+        <td id="6" onclick="picasso(6)">X</td>
+        <td id="7" onclick="picasso(7)">X</td>
+        <td id="8" onclick="picasso(8)">X</td>
+      </tr>
+    </table>
+    <footer>&copy Clark Davis Enterprises <a href="https://www.copyright.gov/">All that copyright jazz!</a></footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>
